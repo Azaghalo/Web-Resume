@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="27"><g><clipPath id="cl_12">
+		<rect width="17.837837" height="24"></rect>
+	</clipPath><g clip-path="url(#cl_12)">
+		<text fill="#6B11D0" font-size="30" font-family="Helvetica" x="0, " y="23, ">
+				&lt;
+		</text>
+	</g></g><g transform="translate(90, 0)"><clipPath id="cl_13">
+		<rect width="17.837837" height="24"></rect>
+	</clipPath><g clip-path="url(#cl_13)">
+		<text fill="#6B11D0" font-size="30" font-family="Helvetica" x="0, " y="23, ">
+				&gt;
+		</text>
+	</g></g><g transform="translate(18, 6)"><clipPath id="cl_14">
+		<rect width="64" height="12"></rect>
+	</clipPath><g clip-path="url(#cl_14)">
+		<text fill="#FCFEFF" font-size="14" font-family="Helvetica" x="0, 7.7861328, 16.337891, 25.675781, 36.56543, 44.351562, 52.137695, 55.248047, " y="11, ">
+				aZAGhalo
+		</text>
+	</g></g><g transform="translate(81, 0)"><clipPath id="cl_15">
+		<rect width="17.837837" height="24"></rect>
+	</clipPath><g clip-path="url(#cl_15)">
+		<text fill="#6B11D0" font-size="30" font-family="Helvetica" x="0, " y="23, ">
+				/
+		</text>
+	</g></g></svg>

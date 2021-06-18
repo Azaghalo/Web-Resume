@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+body{
+    margin-top: 90px;
+}
+
+img{
+	width: 100%;
+	max-width: 400px;
+}
+
+.center-1280, .center-1650{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.center-1650{
+    max-width: 1650px;
+}
+
+.width-33{
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.width-50{
+	padding: 0 10px;
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.header-stick{
+    background-color: #20245df6;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+.logo{
+    width: 200px;
+    margin: 23px 10px;
+}
+
+nav.desktop ul{
+	position: relative;
+	top: 35px;
+	list-style-type: none;
+}
+
+nav.desktop li{
+	font-size: 15px;
+	padding: 0 15px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+nav.desktop a{
+	color: white;
+	text-decoration: none;
+}
+
+.mobile{
+	display: none;
+}
+
+#lang-switch{
+    float: right;
+}
+
+section.banner-container{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.banner-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+}
+
+.overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(50, 20, 107, 0.5);
+	z-index: 2;
+}
+
+section.banner-container form{
+	width: 80%;
+	max-width: 600px;
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+section.banner-container form h2{
+	color: white;
+	font-weight: 200;
+	font-size: 30px;
+	text-align: center;
+}
+
+section.banner-container form input[type=email]{
+	width: 100%;
+	height: 50px;
+	background: white;
+	color: #333;
+	font-size: 25px;
+	border-radius: 15px;
+	border: 0;
+	margin-top: 15px;
+	padding: 0 10px 5px 10px;
+	outline: none;
+}
+
+section.banner-container form input[type=submit]{
+	width: 100%;
+	height: 50px;
+	background: #2d638e;
+	color: white;
+	font-size: 25px;
+	border-radius: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+	border: 0;
+	padding-bottom: 8px;
+}
+
+section.about-author{
+	padding: 40px 0;
+}
+
+section.about-author h2{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+section.about-author p{
+	font-size: 18px;
+	color: #444;
+	margin-top: 10px;
+}
+
+.author-img{
+	border-radius: 10px;
+	border: 1px solid #313462;
+}
+
+section.expertise{
+	padding: 40px 0;
+	background: #E2E2E2;
+}
+
+section.expertise h2.title{
+	font-size: 40px;
+	font-weight: 700;
+	color: #999;
+	text-align: center;
+}
+
+.expertise-2collumns{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.box-expertise{
+	text-align: center;
+	padding: 0 30px;
+	margin: 20px 0;
+}
+
+.box-expertise h3{
+	color: #404580;
+	font-size: 75px;
+}
+
+.box-expertise h4{
+	color: #1f2249;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.box-expertise p{
+	color: #444;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+section.extras{
+	padding: 30px 0;
+	background: #404580;
+}
+
+.values-container, .services-container{
+	padding: 0 50px;
+}
+
+section.extras .title{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.values-single{
+	padding: 15px 0;
+	border-bottom: 0.5px solid #341f60;
+}
+
+.value-description{
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+.services ul{
+	margin: 20px 0;
+	list-style-position: inside;
+}
+
+.services li{
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+.portifolio-link{
+    color: rgb(9, 163, 130);
+    text-decoration: none;
+}
+
+footer{
+	background: #313462;
+	padding: 25px 0;
+}
+
+footer p{
+	text-align: center;
+	color: #736884;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: #6c2ccc;
+}
+
+@media screen and (max-width: 800px){
+	.author-img{
+		float: none !important;
+		display: block;
+		margin: 0 auto;
+	}
+	.width-50, .width-33{
+		padding: 20px;
+		width: 100%;
+	}
+	.box-expertise{
+		padding: 20px 20px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 750px){
+	nav.desktop{
+		display: none;
+	}
+	nav.mobile{
+		display: block;
+	}
+	nav.mobile ul{
+		top: 90px;
+		z-index: 3;
+		display: none;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+	}
+	nav.mobile li{
+		font-size: 15px;
+		font-weight: 300;
+		width: 100%;
+		display: block;
+		background: #161e49;
+		border-bottom: 0.5px #040f31 solid;
+		font-size: 17px;
+		padding: 5px 0;
+	}
+	nav.mobile li a{
+		display: block;
+		color: white;
+		text-decoration: none;
+		margin-bottom: 10px;
+	}
+	.menu-btn-mobile{
+        margin: 25px 10px;
+		font-size: 30px;
+		cursor: pointer;
+		color: white;
+	}
+}
